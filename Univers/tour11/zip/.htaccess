@@ -1,0 +1,4 @@
+AuthUserFile "/homepages/2/d299517278/htdocs/dao2/secure2/1.txt"
+AuthName "Acces Restreint"
+AuthType Basic
+require valid-user

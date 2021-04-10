@@ -1,0 +1,7 @@
+PerlSetVar AuthFile ./secure2/3.txt
+AuthName "Acces Restreint"
+AuthType Basic
+
+<Limit GET POST>
+require valid-user
+</Limit>
